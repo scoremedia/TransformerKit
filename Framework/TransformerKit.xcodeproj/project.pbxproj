@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86C1CE371BA9112C00462754 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; settings = {ASSET_TAGS = (); }; };
+		86C1CE371BA9112C00462754 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C1CE381BA9112C00462754 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; settings = {ASSET_TAGS = (); }; };
-		86C1CE391BA9112C00462754 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ASSET_TAGS = (); }; };
-		86C1CE3C1BA9112C00462754 /* TTTDataTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2D1BA9112C00462754 /* TTTDataTransformer.h */; settings = {ASSET_TAGS = (); }; };
+		86C1CE391BA9112C00462754 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C1CE3C1BA9112C00462754 /* TTTDataTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2D1BA9112C00462754 /* TTTDataTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C1CE3F1BA9112C00462754 /* TTTDateTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE301BA9112C00462754 /* TTTDateTransformers.m */; settings = {ASSET_TAGS = (); }; };
-		86C1CE401BA9112C00462754 /* TTTImageTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE311BA9112C00462754 /* TTTImageTransformers.h */; settings = {ASSET_TAGS = (); }; };
+		86C1CE401BA9112C00462754 /* TTTImageTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE311BA9112C00462754 /* TTTImageTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C1CE411BA9112C00462754 /* TTTImageTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE321BA9112C00462754 /* TTTImageTransformers.m */; settings = {ASSET_TAGS = (); }; };
-		86C1CE421BA9112C00462754 /* TTTJSONTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */; settings = {ASSET_TAGS = (); }; };
+		86C1CE421BA9112C00462754 /* TTTJSONTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C1CE431BA9112C00462754 /* TTTJSONTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */; settings = {ASSET_TAGS = (); }; };
-		86C1CE441BA9112C00462754 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ASSET_TAGS = (); }; };
+		86C1CE441BA9112C00462754 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C1CE451BA9112C00462754 /* TTTStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE361BA9112C00462754 /* TTTStringTransformers.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
