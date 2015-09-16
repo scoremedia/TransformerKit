@@ -27,6 +27,8 @@
     #import "TTTImageTransformers.h"
     #import "TTTStringTransformers.h"
     #import "TTTJSONTransformer.h"
-    #import "TTTCryptographyTransformers.h"
-    #import "TTTDataTransformer.h"
+    #if !TARGET_OS_WATCH
+        #import "TTTCryptographyTransformers.h"
+        #import "TTTDataTransformer.h"
+    #endif
 #endif
