@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86C1CE371BA9112C00462754 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C1CE371BA9112C00462754 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; };
 		86C1CE381BA9112C00462754 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; settings = {ASSET_TAGS = (); }; };
 		86C1CE391BA9112C00462754 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C1CE3F1BA9112C00462754 /* TTTDateTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE301BA9112C00462754 /* TTTDateTransformers.m */; settings = {ASSET_TAGS = (); }; };
