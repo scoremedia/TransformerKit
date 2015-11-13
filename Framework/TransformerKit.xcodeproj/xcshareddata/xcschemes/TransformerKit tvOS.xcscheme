@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "86583CC71BF59BFA006D1C52"
-               BuildableName = "TransformerKit tvOS.framework"
+               BuildableName = "TransformerKit.framework"
                BlueprintName = "TransformerKit tvOS"
                ReferencedContainer = "container:TransformerKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86583CC71BF59BFA006D1C52"
-            BuildableName = "TransformerKit tvOS.framework"
+            BuildableName = "TransformerKit.framework"
             BlueprintName = "TransformerKit tvOS"
             ReferencedContainer = "container:TransformerKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86583CC71BF59BFA006D1C52"
-            BuildableName = "TransformerKit tvOS.framework"
+            BuildableName = "TransformerKit.framework"
             BlueprintName = "TransformerKit tvOS"
             ReferencedContainer = "container:TransformerKit.xcodeproj">
          </BuildableReference>

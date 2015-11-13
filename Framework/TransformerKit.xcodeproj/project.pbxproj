@@ -13,6 +13,11 @@
 		86583CD31BF59C2B006D1C52 /* TTTJSONTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86583CD41BF59C2B006D1C52 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86583CD51BF59C32006D1C52 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; };
+		86583D071BF5B28E006D1C52 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; };
+		86583D081BF5B28E006D1C52 /* TTTDateTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE301BA9112C00462754 /* TTTDateTransformers.m */; };
+		86583D091BF5B28E006D1C52 /* TTTImageTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE321BA9112C00462754 /* TTTImageTransformers.m */; };
+		86583D0A1BF5B28E006D1C52 /* TTTJSONTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */; };
+		86583D0B1BF5B28E006D1C52 /* TTTStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE361BA9112C00462754 /* TTTStringTransformers.m */; };
 		86C1CE371BA9112C00462754 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; };
 		86C1CE381BA9112C00462754 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; };
 		86C1CE391BA9112C00462754 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -250,6 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86583D0A1BF5B28E006D1C52 /* TTTJSONTransformer.m in Sources */,
+				86583D081BF5B28E006D1C52 /* TTTDateTransformers.m in Sources */,
+				86583D071BF5B28E006D1C52 /* NSValueTransformer+TransformerKit.m in Sources */,
+				86583D091BF5B28E006D1C52 /* TTTImageTransformers.m in Sources */,
+				86583D0B1BF5B28E006D1C52 /* TTTStringTransformers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +446,7 @@
 				86583CCE1BF59BFA006D1C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C1CE161BA910F700462754 /* Build configuration list for PBXProject "TransformerKit" */ = {
 			isa = XCConfigurationList;
