@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "86C1CE1B1BA910F700462754"
                BuildableName = "TransformerKit.framework"
-               BlueprintName = "TransformerKit"
+               BlueprintName = "TransformerKit watchOS"
                ReferencedContainer = "container:TransformerKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,7 +47,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86C1CE1B1BA910F700462754"
             BuildableName = "TransformerKit.framework"
-            BlueprintName = "TransformerKit"
+            BlueprintName = "TransformerKit watchOS"
             ReferencedContainer = "container:TransformerKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,7 +65,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86C1CE1B1BA910F700462754"
             BuildableName = "TransformerKit.framework"
-            BlueprintName = "TransformerKit"
+            BlueprintName = "TransformerKit watchOS"
             ReferencedContainer = "container:TransformerKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
