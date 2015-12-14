@@ -30,7 +30,7 @@
     #if !TARGET_OS_WATCH && !TARGET_OS_TV
         #import "TTTCryptographyTransformers.h"
     #endif
-#if !TARGET_OS_IOS
+#if !TARGET_OS_IOS && !TARGET_OS_WATCH && !TARGET_OS_TV
         #import "TTTDataTransformer.h"
 #endif
 #endif
