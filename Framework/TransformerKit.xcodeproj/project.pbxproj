@@ -29,7 +29,6 @@
 		86C1CE441BA9112C00462754 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86C1CE451BA9112C00462754 /* TTTStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE361BA9112C00462754 /* TTTStringTransformers.m */; };
 		86C1CE6C1BA91C7800462754 /* TTTDateTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2F1BA9112C00462754 /* TTTDateTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86D30F951C194EAB001EBE59 /* TransformerKit iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D30F941C194EAB001EBE59 /* TransformerKit iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86D30F9A1C194EC6001EBE59 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; };
 		86D30F9B1C194EC6001EBE59 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; };
 		86D30F9C1C194EC6001EBE59 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +42,6 @@
 		86D30FA61C194EC6001EBE59 /* TTTJSONTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */; };
 		86D30FA71C194EC6001EBE59 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86D30FA81C194EC6001EBE59 /* TTTStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE361BA9112C00462754 /* TTTStringTransformers.m */; };
-		86D311FE1C19DDA3001EBE59 /* TTTDataTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2D1BA9112C00462754 /* TTTDataTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,7 +65,6 @@
 		86C1CE351BA9112C00462754 /* TTTStringTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTStringTransformers.h; sourceTree = "<group>"; };
 		86C1CE361BA9112C00462754 /* TTTStringTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTStringTransformers.m; sourceTree = "<group>"; };
 		86D30F921C194EAB001EBE59 /* TransformerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransformerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86D30F941C194EAB001EBE59 /* TransformerKit iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransformerKit iOS.h"; sourceTree = "<group>"; };
 		86D30F961C194EAB001EBE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,7 +157,6 @@
 		86D30F931C194EAB001EBE59 /* TransformerKit iOS */ = {
 			isa = PBXGroup;
 			children = (
-				86D30F941C194EAB001EBE59 /* TransformerKit iOS.h */,
 				86D30F961C194EAB001EBE59 /* Info.plist */,
 			);
 			path = "TransformerKit iOS";
@@ -205,9 +201,7 @@
 				86D30FA71C194EC6001EBE59 /* TTTStringTransformers.h in Headers */,
 				86D30F9D1C194EC6001EBE59 /* TTTCryptographyTransformers.h in Headers */,
 				86D30F9C1C194EC6001EBE59 /* TransformerKit.h in Headers */,
-				86D311FE1C19DDA3001EBE59 /* TTTDataTransformer.h in Headers */,
 				86D30FA31C194EC6001EBE59 /* TTTImageTransformers.h in Headers */,
-				86D30F951C194EAB001EBE59 /* TransformerKit iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
