@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86583CD01BF59C2B006D1C52 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86583CD11BF59C2B006D1C52 /* TTTDateTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2F1BA9112C00462754 /* TTTDateTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86583CD21BF59C2B006D1C52 /* TTTImageTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE311BA9112C00462754 /* TTTImageTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86583CD31BF59C2B006D1C52 /* TTTJSONTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86583CD41BF59C2B006D1C52 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86583CD51BF59C32006D1C52 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; };
+		86583D071BF5B28E006D1C52 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; };
+		86583D081BF5B28E006D1C52 /* TTTDateTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE301BA9112C00462754 /* TTTDateTransformers.m */; };
+		86583D091BF5B28E006D1C52 /* TTTImageTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE321BA9112C00462754 /* TTTImageTransformers.m */; };
+		86583D0A1BF5B28E006D1C52 /* TTTJSONTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */; };
+		86583D0B1BF5B28E006D1C52 /* TTTStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE361BA9112C00462754 /* TTTStringTransformers.m */; };
+		86C1CE371BA9112C00462754 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; };
+		86C1CE381BA9112C00462754 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; };
+		86C1CE391BA9112C00462754 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C1CE3F1BA9112C00462754 /* TTTDateTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE301BA9112C00462754 /* TTTDateTransformers.m */; };
+		86C1CE401BA9112C00462754 /* TTTImageTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE311BA9112C00462754 /* TTTImageTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C1CE411BA9112C00462754 /* TTTImageTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE321BA9112C00462754 /* TTTImageTransformers.m */; };
+		86C1CE421BA9112C00462754 /* TTTJSONTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C1CE431BA9112C00462754 /* TTTJSONTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */; };
+		86C1CE441BA9112C00462754 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C1CE451BA9112C00462754 /* TTTStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE361BA9112C00462754 /* TTTStringTransformers.m */; };
+		86C1CE6C1BA91C7800462754 /* TTTDateTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2F1BA9112C00462754 /* TTTDateTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D30F9A1C194EC6001EBE59 /* NSValueTransformer+TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */; };
+		86D30F9B1C194EC6001EBE59 /* NSValueTransformer+TransformerKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */; };
+		86D30F9C1C194EC6001EBE59 /* TransformerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2A1BA9112C00462754 /* TransformerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D30F9D1C194EC6001EBE59 /* TTTCryptographyTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2B1BA9112C00462754 /* TTTCryptographyTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D30F9E1C194EC6001EBE59 /* TTTCryptographyTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE2C1BA9112C00462754 /* TTTCryptographyTransformers.m */; };
+		86D30FA11C194EC6001EBE59 /* TTTDateTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE2F1BA9112C00462754 /* TTTDateTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D30FA21C194EC6001EBE59 /* TTTDateTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE301BA9112C00462754 /* TTTDateTransformers.m */; };
+		86D30FA31C194EC6001EBE59 /* TTTImageTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE311BA9112C00462754 /* TTTImageTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D30FA41C194EC6001EBE59 /* TTTImageTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE321BA9112C00462754 /* TTTImageTransformers.m */; };
+		86D30FA51C194EC6001EBE59 /* TTTJSONTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D30FA61C194EC6001EBE59 /* TTTJSONTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */; };
+		86D30FA71C194EC6001EBE59 /* TTTStringTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C1CE351BA9112C00462754 /* TTTStringTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D30FA81C194EC6001EBE59 /* TTTStringTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C1CE361BA9112C00462754 /* TTTStringTransformers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86583CC81BF59BFA006D1C52 /* TransformerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransformerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86583CCC1BF59BFA006D1C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C1CE1C1BA910F700462754 /* TransformerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransformerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C1CE211BA910F700462754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+TransformerKit.h"; sourceTree = "<group>"; };
+		86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+TransformerKit.m"; sourceTree = "<group>"; };
+		86C1CE2A1BA9112C00462754 /* TransformerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformerKit.h; sourceTree = "<group>"; };
+		86C1CE2B1BA9112C00462754 /* TTTCryptographyTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTCryptographyTransformers.h; sourceTree = "<group>"; };
+		86C1CE2C1BA9112C00462754 /* TTTCryptographyTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTCryptographyTransformers.m; sourceTree = "<group>"; };
+		86C1CE2D1BA9112C00462754 /* TTTDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTDataTransformer.h; sourceTree = "<group>"; };
+		86C1CE2E1BA9112C00462754 /* TTTDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTDataTransformer.m; sourceTree = "<group>"; };
+		86C1CE2F1BA9112C00462754 /* TTTDateTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTDateTransformers.h; sourceTree = "<group>"; };
+		86C1CE301BA9112C00462754 /* TTTDateTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTDateTransformers.m; sourceTree = "<group>"; };
+		86C1CE311BA9112C00462754 /* TTTImageTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTImageTransformers.h; sourceTree = "<group>"; };
+		86C1CE321BA9112C00462754 /* TTTImageTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTImageTransformers.m; sourceTree = "<group>"; };
+		86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTJSONTransformer.h; sourceTree = "<group>"; };
+		86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTJSONTransformer.m; sourceTree = "<group>"; };
+		86C1CE351BA9112C00462754 /* TTTStringTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTStringTransformers.h; sourceTree = "<group>"; };
+		86C1CE361BA9112C00462754 /* TTTStringTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTStringTransformers.m; sourceTree = "<group>"; };
+		86D30F921C194EAB001EBE59 /* TransformerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransformerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86D30F961C194EAB001EBE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86583CC41BF59BFA006D1C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C1CE181BA910F700462754 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D30F8E1C194EAB001EBE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86583CC91BF59BFA006D1C52 /* TransformerKit tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				86583CCC1BF59BFA006D1C52 /* Info.plist */,
+			);
+			path = "TransformerKit tvOS";
+			sourceTree = "<group>";
+		};
+		86C1CE121BA910F700462754 = {
+			isa = PBXGroup;
+			children = (
+				86C1CE271BA9112C00462754 /* TransformerKit */,
+				86C1CE1E1BA910F700462754 /* Supporting Files */,
+				86583CC91BF59BFA006D1C52 /* TransformerKit tvOS */,
+				86D30F931C194EAB001EBE59 /* TransformerKit iOS */,
+				86C1CE1D1BA910F700462754 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C1CE1D1BA910F700462754 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C1CE1C1BA910F700462754 /* TransformerKit.framework */,
+				86583CC81BF59BFA006D1C52 /* TransformerKit.framework */,
+				86D30F921C194EAB001EBE59 /* TransformerKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C1CE1E1BA910F700462754 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86C1CE211BA910F700462754 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = TransformerKit;
+			sourceTree = "<group>";
+		};
+		86C1CE271BA9112C00462754 /* TransformerKit */ = {
+			isa = PBXGroup;
+			children = (
+				86C1CE281BA9112C00462754 /* NSValueTransformer+TransformerKit.h */,
+				86C1CE291BA9112C00462754 /* NSValueTransformer+TransformerKit.m */,
+				86C1CE2A1BA9112C00462754 /* TransformerKit.h */,
+				86C1CE2B1BA9112C00462754 /* TTTCryptographyTransformers.h */,
+				86C1CE2C1BA9112C00462754 /* TTTCryptographyTransformers.m */,
+				86C1CE2D1BA9112C00462754 /* TTTDataTransformer.h */,
+				86C1CE2E1BA9112C00462754 /* TTTDataTransformer.m */,
+				86C1CE2F1BA9112C00462754 /* TTTDateTransformers.h */,
+				86C1CE301BA9112C00462754 /* TTTDateTransformers.m */,
+				86C1CE311BA9112C00462754 /* TTTImageTransformers.h */,
+				86C1CE321BA9112C00462754 /* TTTImageTransformers.m */,
+				86C1CE331BA9112C00462754 /* TTTJSONTransformer.h */,
+				86C1CE341BA9112C00462754 /* TTTJSONTransformer.m */,
+				86C1CE351BA9112C00462754 /* TTTStringTransformers.h */,
+				86C1CE361BA9112C00462754 /* TTTStringTransformers.m */,
+			);
+			name = TransformerKit;
+			path = ../TransformerKit;
+			sourceTree = "<group>";
+		};
+		86D30F931C194EAB001EBE59 /* TransformerKit iOS */ = {
+			isa = PBXGroup;
+			children = (
+				86D30F961C194EAB001EBE59 /* Info.plist */,
+			);
+			path = "TransformerKit iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		86583CC51BF59BFA006D1C52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86583CD01BF59C2B006D1C52 /* TransformerKit.h in Headers */,
+				86583CD21BF59C2B006D1C52 /* TTTImageTransformers.h in Headers */,
+				86583CD51BF59C32006D1C52 /* NSValueTransformer+TransformerKit.h in Headers */,
+				86583CD11BF59C2B006D1C52 /* TTTDateTransformers.h in Headers */,
+				86583CD31BF59C2B006D1C52 /* TTTJSONTransformer.h in Headers */,
+				86583CD41BF59C2B006D1C52 /* TTTStringTransformers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C1CE191BA910F700462754 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C1CE371BA9112C00462754 /* NSValueTransformer+TransformerKit.h in Headers */,
+				86C1CE421BA9112C00462754 /* TTTJSONTransformer.h in Headers */,
+				86C1CE441BA9112C00462754 /* TTTStringTransformers.h in Headers */,
+				86C1CE6C1BA91C7800462754 /* TTTDateTransformers.h in Headers */,
+				86C1CE391BA9112C00462754 /* TransformerKit.h in Headers */,
+				86C1CE401BA9112C00462754 /* TTTImageTransformers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D30F8F1C194EAB001EBE59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D30FA11C194EC6001EBE59 /* TTTDateTransformers.h in Headers */,
+				86D30F9A1C194EC6001EBE59 /* NSValueTransformer+TransformerKit.h in Headers */,
+				86D30FA51C194EC6001EBE59 /* TTTJSONTransformer.h in Headers */,
+				86D30FA71C194EC6001EBE59 /* TTTStringTransformers.h in Headers */,
+				86D30F9D1C194EC6001EBE59 /* TTTCryptographyTransformers.h in Headers */,
+				86D30F9C1C194EC6001EBE59 /* TransformerKit.h in Headers */,
+				86D30FA31C194EC6001EBE59 /* TTTImageTransformers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		86583CC71BF59BFA006D1C52 /* TransformerKit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86583CCF1BF59BFA006D1C52 /* Build configuration list for PBXNativeTarget "TransformerKit tvOS" */;
+			buildPhases = (
+				86583CC31BF59BFA006D1C52 /* Sources */,
+				86583CC41BF59BFA006D1C52 /* Frameworks */,
+				86583CC51BF59BFA006D1C52 /* Headers */,
+				86583CC61BF59BFA006D1C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TransformerKit tvOS";
+			productName = "TransformerKit tvOS";
+			productReference = 86583CC81BF59BFA006D1C52 /* TransformerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86C1CE1B1BA910F700462754 /* TransformerKit watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C1CE241BA910F700462754 /* Build configuration list for PBXNativeTarget "TransformerKit watchOS" */;
+			buildPhases = (
+				86C1CE171BA910F700462754 /* Sources */,
+				86C1CE181BA910F700462754 /* Frameworks */,
+				86C1CE191BA910F700462754 /* Headers */,
+				86C1CE1A1BA910F700462754 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TransformerKit watchOS";
+			productName = TransformerKit;
+			productReference = 86C1CE1C1BA910F700462754 /* TransformerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86D30F911C194EAB001EBE59 /* TransformerKit iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86D30F971C194EAB001EBE59 /* Build configuration list for PBXNativeTarget "TransformerKit iOS" */;
+			buildPhases = (
+				86D30F8D1C194EAB001EBE59 /* Sources */,
+				86D30F8E1C194EAB001EBE59 /* Frameworks */,
+				86D30F8F1C194EAB001EBE59 /* Headers */,
+				86D30F901C194EAB001EBE59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TransformerKit iOS";
+			productName = "TransformerKit iOS";
+			productReference = 86D30F921C194EAB001EBE59 /* TransformerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C1CE131BA910F700462754 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Anluan O'Brien";
+				TargetAttributes = {
+					86583CC71BF59BFA006D1C52 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					86C1CE1B1BA910F700462754 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					86D30F911C194EAB001EBE59 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 86C1CE161BA910F700462754 /* Build configuration list for PBXProject "TransformerKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86C1CE121BA910F700462754;
+			productRefGroup = 86C1CE1D1BA910F700462754 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C1CE1B1BA910F700462754 /* TransformerKit watchOS */,
+				86583CC71BF59BFA006D1C52 /* TransformerKit tvOS */,
+				86D30F911C194EAB001EBE59 /* TransformerKit iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86583CC61BF59BFA006D1C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C1CE1A1BA910F700462754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D30F901C194EAB001EBE59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86583CC31BF59BFA006D1C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86583D0A1BF5B28E006D1C52 /* TTTJSONTransformer.m in Sources */,
+				86583D081BF5B28E006D1C52 /* TTTDateTransformers.m in Sources */,
+				86583D071BF5B28E006D1C52 /* NSValueTransformer+TransformerKit.m in Sources */,
+				86583D091BF5B28E006D1C52 /* TTTImageTransformers.m in Sources */,
+				86583D0B1BF5B28E006D1C52 /* TTTStringTransformers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C1CE171BA910F700462754 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C1CE411BA9112C00462754 /* TTTImageTransformers.m in Sources */,
+				86C1CE3F1BA9112C00462754 /* TTTDateTransformers.m in Sources */,
+				86C1CE451BA9112C00462754 /* TTTStringTransformers.m in Sources */,
+				86C1CE431BA9112C00462754 /* TTTJSONTransformer.m in Sources */,
+				86C1CE381BA9112C00462754 /* NSValueTransformer+TransformerKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D30F8D1C194EAB001EBE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D30FA41C194EC6001EBE59 /* TTTImageTransformers.m in Sources */,
+				86D30FA21C194EC6001EBE59 /* TTTDateTransformers.m in Sources */,
+				86D30F9E1C194EC6001EBE59 /* TTTCryptographyTransformers.m in Sources */,
+				86D30FA81C194EC6001EBE59 /* TTTStringTransformers.m in Sources */,
+				86D30FA61C194EC6001EBE59 /* TTTJSONTransformer.m in Sources */,
+				86D30F9B1C194EC6001EBE59 /* NSValueTransformer+TransformerKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		86583CCD1BF59BFA006D1C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TransformerKit tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iphone.thescore.com.TransformerKit-tvOS";
+				PRODUCT_NAME = TransformerKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		86583CCE1BF59BFA006D1C52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TransformerKit tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "iphone.thescore.com.TransformerKit-tvOS";
+				PRODUCT_NAME = TransformerKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		86C1CE221BA910F700462754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		86C1CE231BA910F700462754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = watchos;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		86C1CE251BA910F700462754 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TransformerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thescore.TransformerKit;
+				PRODUCT_NAME = TransformerKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		86C1CE261BA910F700462754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TransformerKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thescore.TransformerKit;
+				PRODUCT_NAME = TransformerKit;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		86D30F981C194EAB001EBE59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TransformerKit iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binarybuzzsoftware.TransformerKit-iOS";
+				PRODUCT_NAME = TransformerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86D30F991C194EAB001EBE59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TransformerKit iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.binarybuzzsoftware.TransformerKit-iOS";
+				PRODUCT_NAME = TransformerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86583CCF1BF59BFA006D1C52 /* Build configuration list for PBXNativeTarget "TransformerKit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86583CCD1BF59BFA006D1C52 /* Debug */,
+				86583CCE1BF59BFA006D1C52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C1CE161BA910F700462754 /* Build configuration list for PBXProject "TransformerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C1CE221BA910F700462754 /* Debug */,
+				86C1CE231BA910F700462754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C1CE241BA910F700462754 /* Build configuration list for PBXNativeTarget "TransformerKit watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C1CE251BA910F700462754 /* Debug */,
+				86C1CE261BA910F700462754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86D30F971C194EAB001EBE59 /* Build configuration list for PBXNativeTarget "TransformerKit iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86D30F981C194EAB001EBE59 /* Debug */,
+				86D30F991C194EAB001EBE59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C1CE131BA910F700462754 /* Project object */;
+}
